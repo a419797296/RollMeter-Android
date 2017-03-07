@@ -1,0 +1,163 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:2:1-90:12
+	xmlns:android
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:2:11-69
+	package
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:3:5-23
+	android:versionName
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml
+		INJECTED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:7:5-44
+	android:minSdkVersion
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:7:15-41
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:13:22-65
+application
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:15:5-88:19
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:16:9-38
+activity#com.test.Welcome
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:18:9-27:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:20:13-56
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:21:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:19:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:25:27-74
+activity#com.test.Activity1
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:28:9-34:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:32:13-56
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:30:13-45
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:33:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:29:13-38
+	android:launchMode
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:31:13-44
+activity#com.test.Activity2
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:35:9-39:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:37:13-56
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:38:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:36:13-38
+activity#com.test.Measure
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:40:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:43:13-56
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:42:13-59
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:44:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:41:13-36
+activity#com.test.History
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:46:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:49:13-56
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:50:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:47:13-36
+activity#com.test.ParameterSet
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:52:9-57:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:55:13-56
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:54:13-65
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:56:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:53:13-41
+activity#com.test.DeviceListActivity
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:58:9-62:59
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:61:13-50
+	android:configChanges
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:60:13-63
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:59:13-47
+activity#com.test.Setting
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:63:9-68:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:66:13-56
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:65:13-59
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:67:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:64:13-36
+activity#com.test.HistoryChart
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:69:9-74:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:72:13-56
+	android:label
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:71:13-59
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:73:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:70:13-41
+activity#com.test.HelpHelp
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:75:9-79:20
+	android:screenOrientation
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:77:13-56
+	android:theme
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:78:13-71
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:76:13-37
+service#com.test.MusicServer
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:80:9-85:19
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:80:18-45
+intent-filter#android.intent.category.default+com.angel.Android.MUSIC
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:81:13-84:29
+action#com.angel.Android.MUSIC
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:82:17-65
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:82:25-63
+category#android.intent.category.default
+ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:83:17-76
+	android:name
+		ADDED from C:\Users\Blue\AndroidStudioProjects\Measure\AndroidManifest.xml:83:27-73

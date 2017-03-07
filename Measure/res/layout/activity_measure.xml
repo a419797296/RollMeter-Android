@@ -1,0 +1,295 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:saund="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/AllBackGround">
+    <RelativeLayout
+        android:layout_width="1024dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayoutTopM"
+        android:background="@drawable/ameasure"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageButtonReturnMB"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+            <ImageButton
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:id="@+id/imageButtonReturnM"
+                android:background="@drawable/returnb"
+                android:clickable="false"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayoutTopM"
+        android:id="@+id/relativeLayoutbackM"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/measureb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/posparam"
+            android:id="@+id/textViewpop"
+            android:textColor="@drawable/white"
+            android:textSize="@dimen/Show_Title_Second_Text_Size"
+            android:layout_alignTop="@+id/textViewofp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="90dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/offsetparam"
+            android:id="@+id/textViewofp"
+            android:textColor="@drawable/white"
+            android:textSize="@dimen/Show_Title_Second_Text_Size"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="85dp"
+            android:layout_marginRight="355dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GunNumberD"
+            android:id="@+id/textViewGunN"
+            android:textSize="@dimen/Iamg_Text_Size"
+            android:textColor="@drawable/NavigatBackGound"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="75dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GunLenD"
+            android:id="@+id/textViewGunL"
+            android:textSize="@dimen/Iamg_Text_Size"
+            android:textColor="@drawable/NavigatBackGound"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="240dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GunTypeD"
+            android:id="@+id/textViewGunT"
+            android:textSize="@dimen/Iamg_Text_Size"
+            android:textColor="@drawable/NavigatBackGound"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="157dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LenthD"
+            android:id="@+id/textViewGunCL"
+            android:textSize="@dimen/Iamg_Text_Size"
+            android:textColor="@drawable/NavigatBackGound"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="320dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LenthD"
+            android:id="@+id/textViewGunO"
+            android:textSize="@dimen/Iamg_Text_Size"
+            android:textColor="@drawable/NavigatBackGound"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="405dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textViewGunD"
+            android:textSize="@dimen/Iamg_Text_Size"
+            android:textColor="@drawable/NavigatBackGound"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="490dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MaxValueShow"
+            android:textColor="@drawable/white"
+            android:id="@+id/textViewxMaxValue"
+            android:gravity="center"
+            android:textSize="@dimen/List_First_Text_Size"
+            android:layout_marginTop="215dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="370dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MaxValueShow"
+            android:textColor="@drawable/white"
+            android:id="@+id/textViewyMaxValue"
+            android:gravity="center"
+            android:textSize="@dimen/List_First_Text_Size"
+            android:layout_below="@+id/textViewxMaxValue"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="370dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MinValueShow"
+            android:textColor="@drawable/white"
+            android:id="@+id/textViewxMinValue"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="@dimen/List_First_Text_Size"
+            android:layout_alignTop="@+id/textViewxMaxValue"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MinValueShow"
+            android:textColor="@drawable/white"
+            android:id="@+id/textViewyMinValue"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="@dimen/List_First_Text_Size"
+            android:layout_alignTop="@+id/textViewyMaxValue"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp" />
+
+        <com.test.widget.SaundProgressBar
+            android:id="@+id/regularprogressbarright"
+            style="@style/Widget.ProgressBar.RegularProgressBarRight"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            saund:offset="3dip"
+            saund:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/btimageboder"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="50dp" />
+
+        <com.test.widget.SaundProgressBar
+            android:id="@+id/regularprogressbar"
+            style="@style/Widget.ProgressBar.RegularProgressBar"
+            android:layout_width="500dp"
+            android:layout_height="35dp"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            saund:offset="3dip"
+            saund:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/btimageboder"
+            android:layout_alignParentEnd="false"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textViewBd"
+            android:layout_marginRight="15dp"
+            android:textColor="@drawable/black"
+            android:visibility="invisible"
+            android:layout_alignRight="@+id/regularprogressbar" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageBlue2"
+            android:layout_alignParentTop="false"
+            android:src="@drawable/blue1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/btimageboder"
+            android:background="@drawable/NavigatBackGound"
+            android:clickable="true"
+            android:padding="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="160dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/btimage"
+            android:background="@android:color/background_light"
+            android:clickable="true"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/finish"
+                android:background="#00000000"
+                />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FinishButton"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/Title_Cap_Size"
+                android:textColor="@android:color/background_dark" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Operation_Direct"
+            android:id="@+id/OperationL"
+            android:layout_marginLeft="18dp"
+            android:layout_above="@+id/regularprogressbarright"
+            android:layout_alignLeft="@+id/regularprogressbarright"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Operation_Direct"
+            android:id="@+id/OperationR"
+            android:layout_above="@+id/regularprogressbarright"
+            android:layout_toLeftOf="@+id/imageBlue2"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

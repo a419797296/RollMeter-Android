@@ -1,0 +1,32 @@
+<RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/AllBackGround"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/relativeLayoutTopLogo"
+        android:background="@drawable/aabout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/relativeLayoutTopLogoB"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+            <ImageButton
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:id="@+id/imageButtonReturnLogo"
+                android:background="@drawable/returnb"
+                android:clickable="false"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

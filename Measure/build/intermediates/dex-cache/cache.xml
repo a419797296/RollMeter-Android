@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Blue\AndroidStudioProjects\Measure\libs\achartengine-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c7bf5eae47dc03bf061fbae77164540acd248501">
+        <dex dex="C:\Users\Blue\AndroidStudioProjects\Measure\build\intermediates\pre-dexed\release\achartengine-1.2.0-0fb33ad63ad80e6f115bc1e991adcc7dbb9cea6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Blue\AndroidStudioProjects\Measure\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="48c94ae70fa65718b382098237806a5909bb096e">
+        <dex dex="C:\Users\Blue\AndroidStudioProjects\Measure\build\intermediates\pre-dexed\release\android-support-v4-8c1d2f6703aaa80873ee6795b11a50df690001a2.jar" />
+    </item>
+
+</items>

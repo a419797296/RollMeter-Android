@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="black">#000000</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="blue">#4169E1</drawable>
+    <drawable name="LightGreenB">#C7EDCC</drawable>
+    <drawable name="AllBackGround">#EEECE1</drawable>
+    <drawable name="NavigatBackGound">#4F81BD</drawable>
+    <drawable name="SecondTxtClor">#1F497D</drawable>
+</resources>

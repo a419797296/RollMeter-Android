@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Activity1!</string>
+    <string name="app_name">RollMeter</string>
+    <string name="act1">Activity1</string>
+    <string name="act2">Activity2</string>
+    <string name="title_activity_welcome">Welcome</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_measure">Testing</string>
+    <string name="title_activity_history">History</string>
+    <string name="BasicInfor">BasicInfor</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="StickNo">辊号</string>
+    <string name="realoffset">实际位移</string>
+    <string name="offsetparam">0</string>
+    <string name="offsetunit">mm</string>
+    <string name="realpos">实际坐标</string>
+    <string name="posparam">0</string>
+    <string name="posunit">mm</string>
+    <string name="MaxTitle">最大坐标</string>
+    <string name="MaxValueShow">0</string>
+    <string name="MinTitle">最小坐标</string>
+    <string name="MinValueShow">0</string>
+    <string name="title_activity_parameter_set">Parameters</string>
+    <string name="inputstr">参数输入</string>
+    <string name="title1">RollNo:</string>
+    <string name="title2">RollType</string>
+    <string name="title3">RollLength(mm)</string>
+    <string name="title4">Sampling Distance</string>
+    <string name="title5">Offer</string>
+    <string name="title6">Direction</string>
+    <string name="title7">ZeroOffset(mm)</string>
+    <string name="leftbuttonstr">Right</string>
+    <string name="rightbuttonstr">Left</string>
+    <string name="ClearButtonStr">Clear</string>
+    <string name="SaveButtonStr">Save</string>
+    <string name="LongWarnning">请将测量仪移动到起始测量位置，并\n将位移传感器预紧至零位附近，按\n“置零”按钮</string>
+    <string name="SmallTitleStr">实测位移</string>
+    <string name="AdjustZero">零位校正</string>
+    <string name="OffsetStr">0</string>
+    <string name="GunNumberD">3345</string>
+    <string name="GunTypeD">包胶软辊</string>
+    <string name="GunLenD">5000 mm</string>
+    <string name="LenthD">50 mm</string>
+    <string name="SuppD">昆山中联</string>
+    <string name="LastTestTitle">最近测量</string>
+    <string name="LastTestDate">0325.16:05</string>
+    <string name="GunNumTitle">测量辊子数量</string>
+    <string name="GunNumData">12</string>
+    <string name="CurveDataTitle">测量曲线数量</string>
+    <string name="CurveData">105</string>
+    <string name="ButtonTitle">选择辊号</string>
+    <string name="CompanyName">公司名称</string>
+    <string name="MeasureToolTitle">智能中高测量仪</string>
+
+    <string name="MeasureDirectLeft">Left to Right</string>
+    <string name="MeasureDirectRight">Right to Left</string>
+    <string name="str_dialog_title">Please wait for a while</string>
+    <string name="str_dialog_body">Data is saving</string>
+    <string name="PlConfirm">Please Confirm</string>
+    <string name="Confirm">OK</string>
+    <string name="Cancles">Cancel</string>
+    <string name="VersionN">173.0</string>
+    <string name="ONOFF">ONFF</string>
+    <string name="SoundSwitch">Sound</string>
+    <string name="BlueSet">Bluetooth</string>
+    <string name="LanguageSet">语言Lanugage</string>
+    <string name="BatteryS">Battery</string>
+    <string name="VersionS">Version</string>
+    <string name="BatteryP">40%</string>
+    <string name="Arrow">》</string>
+    <string name="ENC">中文</string>
+    <string name="ENEN">English</string>
+    <string name="BlueN">Click to Choose Bluetooth</string>
+    <string name="parameter_warning">Please Set Parameter First</string>
+    <string name="Applys">Apply</string>
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="getScale">Get Scale</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="PlConfirmDelete">Please Confirm the data will be deleted</string>
+    <string name="DateTime">Date:</string>
+
+    <!--  BluetoothChat -->
+
+    <string name="history_x">Roll Length(mm)</string>
+    <string name="history_y">Roll Heighth(mm)</string>
+    <string name="onemore_return">One More Press to Return</string>
+    <string name="range_warnning">The Input in out of Range</string>
+    <string name="input_warnning">*Must be input</string>
+    <string name="set_zero">Available Measurement Range is</string>
+    <string name="blue_warning">Please set Bluetooth First</string>
+    <string name="data_warning">Too little data to save!</string>
+    <string name="test_mention">Test complete，Please Click CompleteTest to finish this test!</string>
+    <string name="FinishButton">CompleteTest</string>
+    <string name="date_warning">All</string>
+    <string name="Operation_Direct">Operate Side</string>
+    <string name="Select_Direct">Please Select Operate Side</string>
+    <string name="Direct_Left">Left Side</string>
+    <string name="Direct_Right">Right Side</string>
+    <string name="YSenoser_Small">Sensor doesn;t reach the Roll,Please check and test again</string>
+    <string name="YSenoser_Big">Offset Sensor reach limit, Please set zero and test again</string>
+    <string name="Pass_Warn">Wrong Password</string>
+    <string name="Length_Warn">Wrong number，Should between150-200mm</string>
+
+</resources>

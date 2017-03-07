@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/AllBackGround">
+
+    <ImageView
+        android:id="@+id/imageViewRoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/CompanyName"
+        android:src="@drawable/rollmeter" />
+
+    <TextView
+        android:id="@+id/textViewTitleChinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageViewRoll"
+        android:layout_below="@+id/imageViewRoll"
+        android:layout_marginTop="5dp"
+        android:text="@string/MeasureToolTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/SecondTxtClor"
+        android:textSize="@dimen/Title_Cap_Size" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonPL"
+        android:layout_below="@+id/textViewTitleChinese"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bparameter"
+        android:layout_marginLeft="50dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonSL"
+        android:layout_toRightOf="@+id/imageButtonPL"
+        android:layout_alignBottom="@+id/imageButtonPL"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bsetting" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonML"
+        android:layout_toRightOf="@+id/imageButtonSL"
+        android:layout_alignBottom="@+id/imageButtonPL"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bmeasure" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonHL"
+        android:layout_below="@+id/imageButtonPL"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bhistory"
+        android:layout_alignLeft="@+id/imageButtonPL" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewLogo"
+        android:layout_alignBottom="@+id/imageButtonHL"
+        android:layout_alignLeft="@+id/imageButtonML"
+        android:background="@drawable/babout" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonWL"
+        android:layout_alignBottom="@+id/imageViewLogo"
+        android:layout_toRightOf="@+id/imageViewLogo"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/bhelp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">1dp</dimen>
+    <dimen name="activity_vertical_margin">1dp</dimen>
+    <dimen name="List_Divider_Height">40dp</dimen>
+    <dimen name="List_Divider_Height2">90dp</dimen>
+    <dimen name="List_Zero_Vertical_Divider">25dp</dimen>
+    <dimen name="List_First_Vertical_Divider">80dp</dimen>
+    <dimen name="List_Second_Vertical_Divider">200dp</dimen>
+    <dimen name="Iamg_Text_Size">23sp</dimen>
+    <dimen name="List_First_Text_Size">30sp</dimen>
+    <dimen name="Title_Cap_Size">35sp</dimen>
+    <dimen name="Title_Second_Text_Size">28sp</dimen>
+    <dimen name="Show_Title_Firest_Text_Size">50sp</dimen>
+    <dimen name="Show_Title_Second_Text_Size">40sp</dimen>
+    <dimen name="Show_Cap_Size">75sp</dimen>
+</resources>
